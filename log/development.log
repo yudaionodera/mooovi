@@ -684,3 +684,170 @@ Started GET "/" for 127.0.0.1 at 2014-11-01 22:32:03 +0900
 Processing by TopController#index as HTML
   Rendered top/index.html.erb within layouts/review_site (0.0ms)
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:04 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (2.4ms)
+Completed 200 OK in 3342ms (Views: 3329.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/review_site.css?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/reviews.css?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/ranking.css?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/ranking.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/reviews.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/assets/bambi-1.0.0.ttf?20140712" for ::1 at 2017-05-14 09:27:08 +0900
+
+
+Started GET "/products/search" for ::1 at 2017-05-14 09:27:11 +0900
+Processing by ProductsController#search as HTML
+  Rendered products/search.html.erb within layouts/review_site (1.4ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/search?utf8=%E2%9C%93&keyword=%E3%81%82%E3%81%82" for ::1 at 2017-05-14 09:27:15 +0900
+Processing by ProductsController#search as HTML
+  Parameters: {"utf8"=>"✓", "keyword"=>"ああ"}
+  Rendered products/search.html.erb within layouts/review_site (0.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2017-05-14 09:27:15 +0900
+
+
+Started GET "/assets/ranking.css?body=1" for ::1 at 2017-05-14 09:27:15 +0900
+
+
+Started GET "/assets/review_site.css?body=1" for ::1 at 2017-05-14 09:27:15 +0900
+
+
+Started GET "/assets/reviews.css?body=1" for ::1 at 2017-05-14 09:27:15 +0900
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:20 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.3ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:42 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:42 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:45 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:46 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:46 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/search" for ::1 at 2017-05-14 09:27:46 +0900
+Processing by ProductsController#search as HTML
+  Rendered products/search.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/search?utf8=%E2%9C%93&keyword=" for ::1 at 2017-05-14 09:27:49 +0900
+Processing by ProductsController#search as HTML
+  Parameters: {"utf8"=>"✓", "keyword"=>""}
+  Rendered products/search.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2017-05-14 09:27:50 +0900
+
+
+Started GET "/assets/review_site.css?body=1" for ::1 at 2017-05-14 09:27:50 +0900
+
+
+Started GET "/assets/ranking.css?body=1" for ::1 at 2017-05-14 09:27:50 +0900
+
+
+Started GET "/assets/reviews.css?body=1" for ::1 at 2017-05-14 09:27:50 +0900
+
+
+Started GET "/" for ::1 at 2017-05-14 09:27:51 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:14 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:14 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:15 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:16 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:16 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-14 09:28:16 +0900
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.erb within layouts/review_site (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
